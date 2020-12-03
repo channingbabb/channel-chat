@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js">
+
+	</script>
+	<!-- Compiled and minified CSS -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+	<!-- Compiled and minified JavaScript -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+</head>
+
+<body>
+	<div id="container">
+		<div id="message">
+			<div id="room-name">
+			</div>
+			<div id="active-members">
+			</div>
+			<div id="total-active-members">
+			</div>
+      <div id="messages">
+      </div>
+      
+			<div class="messagebar">
+				<input class="message" placeholder = "message">
+      </div>
+
+		</div>
+		<div id="rooms">
+			<div id="rooms-title"><b>All rooms</b></div>
+      <div id="active-members">
+    <div id="room">
+      <div id="room-title"><i>General</i></div>
+      <div id="room-online">10 online</div>
+    </div>
+  </div>
+</div>
+</div>
+  <!-- <div class="row">
+    <div class="input-field col s12">
+      <textarea id="textarea1" class="message materialize-textarea"></textarea>
+      <label for="textarea1">Message</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="input-field col s12">
+      <input id="first_name2" type="text" class="name validate">
+      <label class="active" for="first_name2">Name</label>
+    </div>
+  </div> -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="script.js">
+  </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+  font-family: Poppins, sans-serif;
+  height: 91vh;
+}
+
+.messagebar {
+    /* position: fixed; */
+    width: 100%;
+    /* bottom: 0; */
+    /* background: black; */
+    padding: 6px;
+    margin-left: 0;
+    display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+#container {
+    padding: 30px;
+    display: flex;
+    height: 100%;
+}
+#messages {
+    overflow-y: scroll;
+}
+.message {
+  width: 95%;
+  height: 20px;
+  border-radius: 50px;
+  border: none;
+}
+
+.message::placeholder {
+  padding-left: 5px;
+}
+
+#message {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#rooms {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 11px;
+}
+
+/* ul :nth-of-type(1){
+  color: green;
+} */
+
+ul:nth-of-type(odd) {
+  background-color: rgba(161, 158, 158, 0.692);
+}
+#room-online {
+    margin-left: 20px;
+}
+#room {
+  display: flex;
+}
+
+/* ul:nth-child(odd){
+    font-weight:bold;
+} */
